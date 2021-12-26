@@ -1,0 +1,21 @@
+{
+  "name": "send_emails_nodemailer",
+  "version": "1.0.0",
+  "description": "Send Emails with Nodemailer",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "stat": "node index.js"
+  },
+  "author": "Eduard Martinez Glez",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "nodemailer": "^6.7.2"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
